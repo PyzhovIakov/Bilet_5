@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Report.СостояниеВзаиморасчетов</content>
   <parentSubsystem>Subsystem.ОперативныйУчет</parentSubsystem>
 </mdclass:Subsystem>
