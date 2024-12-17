@@ -111,4 +111,22 @@
     </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="63e05102-6145-4dc1-b971-8b1d62e31f1f">
+    <name>КраткоеНаименое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краткое наименое</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
