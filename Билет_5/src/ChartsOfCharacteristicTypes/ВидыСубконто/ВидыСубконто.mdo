@@ -95,6 +95,10 @@
   <fullTextSearch>Use</fullTextSearch>
   <type>
     <types>CatalogRef.Номенклатура</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -110,6 +114,17 @@
       <code>000000001</code>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="e484801c-22ec-468a-bd82-4e8961859a27">
+      <name>ИнвНомер</name>
+      <description>Инв номер</description>
+      <code>000000002</code>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
       </type>
     </items>
   </predefined>
