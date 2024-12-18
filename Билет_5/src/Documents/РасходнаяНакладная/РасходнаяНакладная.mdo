@@ -65,6 +65,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.Взаиморасчеты</registerRecords>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="f4942f71-3feb-41b1-8538-713bef646e74">
@@ -146,8 +147,12 @@
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
+      <minValue xsi:type="core:StringValue">
+        <value>1</value>
+      </minValue>
+      <maxValue xsi:type="core:StringValue">
+        <value>1</value>
+      </maxValue>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -182,6 +187,23 @@
           <precision>12</precision>
           <scale>2</scale>
           <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="267daa87-f6cf-44d5-a6ee-ce10a88c7365">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв номер</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
