@@ -51,6 +51,7 @@
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.Расчеты</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07c89ad3-3807-4f5d-ae03-32f5822ab7d4">
+  <name>Расчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Расчеты</picture>
+  </picture>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Планы</subsystems>
+  <subsystems>Регистры</subsystems>
+</mdclass:Subsystem>

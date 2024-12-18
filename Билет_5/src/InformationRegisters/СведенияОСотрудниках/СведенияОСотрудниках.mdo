@@ -72,24 +72,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <dimensions uuid="1a072331-87c1-48e1-832b-4d27f0bd1e9e">
-    <name>Сотрудник</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сотрудник</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФизическиеЛица</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="0106f36e-35a9-44fe-8d5a-021ec7336fd5">
     <name>Подразделение</name>
     <synonym>
@@ -106,6 +88,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f08b1b9-d250-435b-a450-a35380b6b6fc">
+    <name>ВерхняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Верхняя граница</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
 </mdclass:InformationRegister>
