@@ -11,6 +11,7 @@
     <picture>CommonPicture.Расчеты</picture>
   </picture>
   <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>Report.ОтчетНачислений</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
   <subsystems>Планы</subsystems>
