@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3dff67c-ab23-4c02-8837-0740ae030540">
+  <producedTypes>
+    <objectType typeId="686d1d90-7177-4b33-bd27-8158ee3a57b7" valueTypeId="bfd9c136-e9eb-4b1c-957e-c70417b2a5fd"/>
+    <refType typeId="9bbc993d-a266-4d55-b48b-24bee45830e6" valueTypeId="4bd814d9-53c8-46be-99fc-17d32e0e5087"/>
+    <selectionType typeId="e896b856-f311-4af4-9efd-3174175bfcdd" valueTypeId="c68fd253-7396-44f3-a96e-0916bc4e2b99"/>
+    <listType typeId="df27b979-7fb6-4f80-a045-f25657e14516" valueTypeId="7043a2dc-c4c5-4c66-9fc9-d42529541ec7"/>
+    <managerType typeId="ed79e41d-caea-4539-a8ec-a83897c1f870" valueTypeId="33c170bf-6b37-476f-8cd6-a313c2ae2c5c"/>
+    <routePointRef typeId="e864bede-8189-4e46-b93f-e2f13689f48c" valueTypeId="43295a14-c333-4547-ae0e-a30fe8e1a49c"/>
+  </producedTypes>
+  <name>БизнесПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес процесс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.БизнесПроцесс.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.БизнесПроцесс.Form.ФормаЭлемента</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задача</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <forms uuid="ea2a5437-b4c0-46e0-9320-c0d7b766c06d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>
