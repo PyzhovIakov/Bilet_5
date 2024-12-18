@@ -123,7 +123,7 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>10</precision>
+          <precision>5</precision>
         </numberQualifiers>
       </type>
     </items>
