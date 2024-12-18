@@ -96,6 +96,7 @@
   <type>
     <types>CatalogRef.Номенклатура</types>
     <types>Number</types>
+    <types>CatalogRef.Подразделения</types>
     <numberQualifiers>
       <precision>10</precision>
     </numberQualifiers>
@@ -125,6 +126,14 @@
         <numberQualifiers>
           <precision>5</precision>
         </numberQualifiers>
+      </type>
+    </items>
+    <items id="ba6663a4-52f1-42b9-b041-e7de636958ac">
+      <name>Подразделение</name>
+      <description>Подразделение</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Подразделения</types>
       </type>
     </items>
   </predefined>

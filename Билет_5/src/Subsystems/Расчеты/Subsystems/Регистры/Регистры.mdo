@@ -9,5 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.ГрафикиРаботы</content>
   <content>InformationRegister.СведенияОСотрудниках</content>
+  <content>CalculationRegister.ОсновныеНачисления</content>
+  <content>CalculationRegister.ДополнительныеНачисления</content>
   <parentSubsystem>Subsystem.Расчеты</parentSubsystem>
 </mdclass:Subsystem>

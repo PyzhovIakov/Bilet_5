@@ -85,4 +85,6 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
 </mdclass:Configuration>

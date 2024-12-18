@@ -79,6 +79,7 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>5</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -95,9 +96,7 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -114,7 +113,7 @@
       <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделения</types>
+      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

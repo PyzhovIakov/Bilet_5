@@ -55,17 +55,4 @@
     <balance>true</balance>
     <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Количественный</accountingFlag>
   </resources>
-  <attributes uuid="02a2c43f-5e7c-4ea6-a443-7c2b8598301d">
-    <name>Подразделение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подразделение</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Подразделения</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
 </mdclass:AccountingRegister>
