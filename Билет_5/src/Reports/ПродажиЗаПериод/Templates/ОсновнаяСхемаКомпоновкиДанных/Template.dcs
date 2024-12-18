@@ -112,6 +112,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -142,6 +143,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
@@ -233,12 +235,7 @@
 						<dcsat:value xsi:type="dcscor:Parameter">ДатаКон</dcsat:value>
 					</dcsat:item>
 					<dcsat:item xsi:type="dcsat:Field">
-						<dcsat:value xsi:type="v8:LocalStringType">
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content/>
-							</v8:item>
-						</dcsat:value>
+						<dcsat:value xsi:type="v8:LocalStringType"/>
 					</dcsat:item>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
@@ -308,10 +305,12 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>c3abbf4d-449d-442e-aa0d-3e06b688d21a</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 					<dcsset:userSettingID>40d15129-f4a7-442d-8bfb-bada629c3ec9</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>

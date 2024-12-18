@@ -52,17 +52,21 @@
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
   <subsystems>Subsystem.Расчеты</subsystems>
+  <subsystems>Subsystem.БизнесПроцессы</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
   <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ВсеПрава</roles>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.Должностя</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
@@ -88,4 +92,6 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
   <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
+  <businessProcesses>BusinessProcess.БизнесПроцесс</businessProcesses>
+  <tasks>Task.Задача</tasks>
 </mdclass:Configuration>
