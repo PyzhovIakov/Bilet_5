@@ -64,6 +64,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="156dc1c0-c492-47f7-af6b-398795fb7c83">
@@ -119,8 +122,6 @@
         <value>Вид расчета</value>
       </synonym>
       <type>
-        <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.Удержания</types>
         <types>ChartOfCalculationTypesRef.ОсновныеНачисления</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -136,9 +137,7 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -153,9 +152,7 @@
       </synonym>
       <type>
         <types>Date</types>
-        <dateQualifiers>
-          <dateFractions>Date</dateFractions>
-        </dateQualifiers>
+        <dateQualifiers/>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -172,6 +169,77 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="364872bb-50ca-45a0-bb60-4d4e36ee34e6">
+    <producedTypes>
+      <objectType typeId="8df477a4-24bc-4ab4-b7fe-650555fe6ee4" valueTypeId="e7f375e2-8c88-4ec7-9179-2e37cacb55db"/>
+      <rowType typeId="f45734c2-d495-4e71-90ba-c3c56e2f8131" valueTypeId="1fb356fb-25fc-45d1-85a7-b7fa261c9b8c"/>
+    </producedTypes>
+    <name>ДополнительныеНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные начисления</value>
+    </synonym>
+    <attributes uuid="6258f90f-9f76-4b2d-9f40-8c76da8068f7">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ed28b39d-7110-42a3-9de0-9b1c53400d11">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a7a740ef-d626-43a1-9294-95912f88c6c0">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f7f32f8f-4690-41d5-806a-085c8e75c217">
+      <name>Процент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
           <scale>2</scale>
         </numberQualifiers>
       </type>

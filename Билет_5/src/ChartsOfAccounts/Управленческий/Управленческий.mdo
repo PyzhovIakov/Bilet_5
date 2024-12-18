@@ -112,7 +112,7 @@
     <value>План счетов бухгалтерского учета &quot;Управленческий&quot;</value>
   </extendedListPresentation>
   <extDimensionTypes>ChartOfCharacteristicTypes.ВидыСубконто</extDimensionTypes>
-  <maxExtDimensionCount>2</maxExtDimensionCount>
+  <maxExtDimensionCount>3</maxExtDimensionCount>
   <codeMask>@@.@@</codeMask>
   <codeLength>5</codeLength>
   <descriptionLength>50</descriptionLength>
@@ -279,6 +279,11 @@
       </extDimensionTypes>
       <extDimensionTypes>
         <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.ИнвНомер</characteristicType>
+        <turnover>true</turnover>
+        <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммарный</extDimensionAccountingFlags>
+      </extDimensionTypes>
+      <extDimensionTypes>
+        <characteristicType>ChartOfCharacteristicTypes.ВидыСубконто.Подразделение</characteristicType>
         <turnover>true</turnover>
         <extDimensionAccountingFlags>ChartOfAccounts.Управленческий.ExtDimensionAccountingFlag.Суммарный</extDimensionAccountingFlags>
       </extDimensionTypes>

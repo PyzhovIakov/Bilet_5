@@ -51,6 +51,7 @@
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.Расчеты</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
@@ -70,6 +71,7 @@
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.СостояниеВзаиморасчетов</reports>
   <reports>Report.ПродажиЗаПериод</reports>
+  <reports>Report.ОтчетНачислений</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
@@ -84,4 +86,6 @@
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.ДополнительныеНачисления</calculationRegisters>
 </mdclass:Configuration>
