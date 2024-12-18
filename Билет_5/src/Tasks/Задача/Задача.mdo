@@ -32,7 +32,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <defaultListForm>Task.Задача.Form.ФормаСписка</defaultListForm>
-  <forms uuid="834cd77d-9766-45b6-9a2d-458ff9250418">
+  <forms uuid="b26ffef5-0d69-4d84-a7b2-acfea8e124c5">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
